@@ -1,0 +1,16 @@
+[
+  "tests/test_api.py::test_budget_create_status_and_delete",
+  "tests/test_api.py::test_budget_data_is_private",
+  "tests/test_api.py::test_category_report",
+  "tests/test_api.py::test_duplicate_email_rejected",
+  "tests/test_api.py::test_invalid_transaction_is_rejected",
+  "tests/test_api.py::test_nan_and_infinite_amounts_rejected",
+  "tests/test_api.py::test_register_login_and_me",
+  "tests/test_api.py::test_transaction_crud_and_summary",
+  "tests/test_api.py::test_transaction_filters_pagination_and_monthly_summary",
+  "tests/test_api.py::test_transaction_text_is_trimmed_and_blank_rejected",
+  "tests/test_api.py::test_transactions_require_authentication",
+  "tests/test_api.py::test_unknown_email_returns_same_login_error",
+  "tests/test_api.py::test_users_cannot_access_each_others_transactions",
+  "tests/test_api.py::test_wrong_password_returns_generic_error"
+]
